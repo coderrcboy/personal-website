@@ -6,7 +6,6 @@ Project Directory: Quick links to all my web apps, browser games, and projects.
 
 Social & Profile Links: Direct access to my GitHub, Hack Club Stardance profile, and social media.
 
-Clean Navigation: Minimalist layout designed for fast loading and simple navigation.
 
 Try It
 You can visit the site directly in any web browser on desktop or mobile. No setup or installation needed.
