@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  background-image: url('bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ff0000;
+  font-family: 'VT323', 'Courier New', monospace;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* White background highlight + red text for paragraphs/divs */
+p, div {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #ff0000;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Unchanged link styles */
+a {
+  color: #ff007f;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+  background-color: rgba(10, 10, 15, 0.92);
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ff007f;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+  color: #00ffff;
+  border-color: #00ffff;
+  background-color: rgba(20, 20, 35, 1);
+  text-shadow: 0 0 8px #00ffff;
+  padding-left: 22px;
+}
+/* White highlight boxes strictly for non-link paragraph text */
+p, div {
+  background-color: #ffffff !important;
+  color: #ff0000 !important;
+}
